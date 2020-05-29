@@ -1,6 +1,12 @@
 @import url("../css/fonts.css");
 :root{
 
+    /*   Theme Colors   */
+    --text-grey:#3f4954;
+
+    /*    Gradient Colors    */
+    --background-gradient:radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
+
     /*theme fonts*/
     --Roboto_Regular:"Roboto Regular",cursive;
     --Balsmiq_Sans_Regular:"Balsmiq Sans Regular",cursive;
@@ -10,10 +16,15 @@ html,body{
     margin: 0%;
     box-sizing: border-box;
     overflow: hidden;
+    background: var(--background-gradient);
 }
 
 /*----------Global Classes----------*/
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    color: var(--text-grey);
+
+}
 
 
 .flex-row{
@@ -21,6 +32,11 @@ a{text-decoration: none;}
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+ul{
+    list-style-type: none;
+}
+
 
 
 /*-----x-----Global Classes------x----*/
@@ -31,16 +47,34 @@ a{text-decoration: none;}
     background: white;
     padding: 0.2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 8vh;
     overflow: hidden;
 }
 
 .nav-menu{
-    justify-content: space-between;
+    justify-content: space-between !important;
+}
+
+.nav-items{
+    display: flex;
+    margin: 0;
+    font-family: var(--Roboto_Regular);
+}
+
+.nav-link{
+    padding: 1rem 1rem;
+    font-size:1.1rem ;
+    position: relative;
 }
 
 .nav .nav-brand a{
     font-size: 1.6rem;
+    padding: 0.4rem 0;
+    display: block;
+    font-family:var(--Balsmiq_Sans_Regular);
+}
+
+.social{
     padding: 1rem 0;
 }
 
