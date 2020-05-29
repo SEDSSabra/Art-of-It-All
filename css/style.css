@@ -19,7 +19,10 @@ a{text-decoration: none;}
 .flex-row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+
+
 /*-----x-----Global Classes------x----*/
 
 /*--------navbar----------*/
@@ -35,6 +38,7 @@ a{text-decoration: none;}
 .nav-menu{
     justify-content: space-between;
 }
+
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding: 1rem 0;
