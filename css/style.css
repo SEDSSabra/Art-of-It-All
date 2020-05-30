@@ -100,11 +100,32 @@ ul{
 /*--------navbar----------*/
 
 .nav{
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     padding: 0.2rem;
     height: 0rem;
     min-height: 8vh;
     overflow: hidden;
+}
+
+.toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem ;
+    
+}
+
+.toggle-icons i{
+    margin: 0 -1.8em;
+    font-size: 1.7rem;
+    color: var(--text-grey);
 }
 
 .nav-menu{
@@ -132,6 +153,7 @@ ul{
 }
 
 .nav .nav-brand a{
+    font-family: var(--Piedra);
     font-size: 1.6rem;
     padding: 0.6rem 0.3rem;
     display: block;
@@ -147,8 +169,25 @@ ul{
     padding: 0 .2rem;
 }
 
+.social i:hover{
+    color: #a1c4cf;
+}
+
 
 /*----x----navbar------x----*/
+
+
+/*Viewport less than or equal 750px*/
+@media only screen and (max-width:750px){
+    .nav-menu,.nav-items{
+        flex-direction: column;
+    }
+
+    .toggle-collapse{
+        display: initial;
+    }
+}
+
 
 
 .Balsamiq_Sans{
