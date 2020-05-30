@@ -3,13 +3,69 @@
 
     /*   Theme Colors   */
     --text-grey:#3f4954;
+    --light-pink:#f96d80;
+    --light-purple:#ad6989;
+    --stylish-black:#3f3f44;
+    --dark-maroon:#9a1f40;
 
     /*    Gradient Colors    */
     --background-gradient:radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
 
-    /*theme fonts*/
-    --Roboto_Regular:"Roboto Regular",cursive;
-    --Balsmiq_Sans_Regular:"Balsmiq Sans Regular",cursive;
+    /*---------------theme fonts-----------------*/
+
+    /*---------Roboto---------*/
+
+    --Roboto-Black:"Roboto-Black",cursive;
+    --Roboto-BlackItalic:"Roboto-BlackItalic",cursive;
+    --Roboto-Bold:"Roboto-Bold",cursive;
+    --Roboto-BoldItalic:"Roboto-BoldItalic",cursive;
+    --Roboto-Italic:"Roboto-Italic",cursive;
+    --Roboto-Light:"Roboto-Light",cursive;
+    --Roboto-LightItalic:"Roboto-LightItalic",cursive;
+    --Roboto-Medium:"Roboto-Medium",cursive;
+    --Roboto-MediumItalic:"Roboto-MediumItalic",cursive;
+    --Roboto-Regular:"Roboto-Regular",cursive;
+    --Roboto-Thin:"Roboto-Thin",cursive;
+    --Roboto-ThinItalic:"Roboto-ThinItalic",cursive;
+
+    /*----x----Roboto----x----*/
+
+    /*---------BalsmiqSans---------*/
+
+    --BalsmiqSans-Bold:"BalsmiqSans-Bold",cursive;
+    --BalsmiqSans-BoldItalic:"BalsmiqSans-BoldItalic",cursive;
+    --BalsmiqSans-Italic:"BalsmiqSans-Italic",cursive;
+    --BalsmiqSans-Regular:"BalsmiqSans-Regular",cursive;
+
+    /*----x----BalsmiqSans----x----*/
+
+    /*---------DM_Mono---------*/
+
+    --DMMono-Italic:"DMMono-Italic",cursive;
+    --DMMono-Light:"DMMono-Light",cursive;
+    --DMMono-LightItalic:"DMMono-LightItalic",cursive;
+    --DMMono-Medium:"DMMono-Medium",cursive;
+    --DMMono-MediumItalic:"DMMono-MediumItalic",cursive;
+    --DMMono-Regular:"DMMono-Regular",cursive;
+
+    /*----x----DM_Mono----x----*/
+
+    /*---------Piedra---------*/
+
+    --Piedra:"Piedra",cursive;
+
+    /*----x----Piedra----x----*/
+
+    /*---------BalsmiqSans---------*/
+
+    --PTSerif-Bold:"PTSerif-Bold",cursive;
+    --PTSerif-BoldItalic:"PTSerif-BoldItalic",cursive;
+    --PTSerif-Italic:"PTSerif-Italic",cursive;
+    --PTSerif-Regular:"PTSerif-Regular",cursive;
+
+    /*----x----BalsmiqSans----x----*/
+
+    /*-------x-------theme fonts--------x--------*/
 }
 
 html,body{
@@ -58,8 +114,16 @@ ul{
 .nav-items{
     display: flex;
     margin: 0;
-    font-family: var(--Roboto_Regular);
+    font-family:var(--Roboto-Black);
 }
+
+.nav-items :hover{
+    background-color: var(--dark-maroon);
+}
+.nav-items :hover a{
+    color: white;
+}
+
 
 .nav-link{
     padding: 1rem 1rem;
@@ -69,9 +133,9 @@ ul{
 
 .nav .nav-brand a{
     font-size: 1.6rem;
-    padding: 0.4rem 0;
+    padding: 0.6rem 0.3rem;
     display: block;
-    font-family:var(--Balsmiq_Sans_Regular);
+    font-family:var(--Piedra);
 }
 
 .social{
@@ -85,3 +149,24 @@ ul{
 
 
 /*----x----navbar------x----*/
+
+
+.Balsamiq_Sans{
+    font-family: var(--BalsmiqSans-Regular);
+}
+
+.DM_Mono{
+    font-family: var(--DMMono-Regular);
+}
+
+.Piedra{
+    font-family: var(--Piedra);
+}
+
+.PT_Serif{
+    font-family: var(--PTSerif-Regular);
+}
+
+.Roboto{
+    font-family: var(--Roboto-Regular);
+}
