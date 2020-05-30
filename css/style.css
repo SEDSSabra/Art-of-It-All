@@ -72,7 +72,6 @@ html,body{
     margin: 0%;
     box-sizing: border-box;
     overflow: hidden;
-    background: var(--background-gradient);
 }
 
 /*----------Global Classes----------*/
@@ -91,6 +90,15 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--PTSerif-Bold);
+    cursor: pointer;
 }
 
 
@@ -193,6 +201,47 @@ ul{
     }
 }
 
+
+/*---------------Main Content-----------------*/
+
+.logo{
+    height: 10rem;
+    margin: .3rem;
+
+}
+
+.site-title{
+    background:url(../assets/richat.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-background{
+    padding-top:10rem;
+    text-align: center;
+    color: white;
+}
+
+.site-title h1{
+    margin: .3rem;
+    font-family: var(--Piedra);
+    letter-spacing: 0.2em;
+    font-size: 5em;
+}
+
+.btn{
+    margin: 1.8rem;
+    background: skyblue;
+}
+
+.btn:hover{
+background: transparent;
+border: 1px solid white;
+color: white;
+}
+/*-------x-------Main Content--------x--------*/
 
 
 .Balsamiq_Sans{
