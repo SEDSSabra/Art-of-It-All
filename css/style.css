@@ -96,7 +96,7 @@ button.btn{
     border: none;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: var(--PTSerif-Bold);
     cursor: pointer;
 }
@@ -242,24 +242,3 @@ border: 1px solid white;
 color: white;
 }
 /*-------x-------Main Content--------x--------*/
-
-
-.Balsamiq_Sans{
-    font-family: var(--BalsmiqSans-Regular);
-}
-
-.DM_Mono{
-    font-family: var(--DMMono-Regular);
-}
-
-.Piedra{
-    font-family: var(--Piedra);
-}
-
-.PT_Serif{
-    font-family: var(--PTSerif-Regular);
-}
-
-.Roboto{
-    font-family: var(--Roboto-Regular);
-}
