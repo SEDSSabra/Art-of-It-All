@@ -182,8 +182,8 @@ ul{
 /*----x----navbar------x----*/
 
 
-/*Viewport less than or equal 750px*/
-@media only screen and (max-width:750px){
+/*Viewport less than or equal 900px*/
+@media only screen and (max-width:900px){
     .nav-menu,.nav-items{
         flex-direction: column;
     }
