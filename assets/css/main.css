@@ -4434,18 +4434,18 @@
 
 .container-2{
 	max-width:1440px;;
-	margin-left: -225px;
+	margin-left: -240px;
 	position: relative;
 	min-height: 1px;
 }
 
 .team{
 	min-height: 100vh;
-	width: 1440px;
-	padding:10px 1px;
+	width: auto;
+	padding:60px 15px;
 	background-color:transparent; 
 	float: left;
-	width: 200%;
+	width:1114px;
 }
 .team h1{
 	font-size: 36px;
